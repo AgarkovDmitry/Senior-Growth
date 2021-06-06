@@ -38,35 +38,43 @@ export const paradigms = {
       children: [
         {
           question: 'Side effects',
-          answer: 'TBD',
+          answer:
+            'Side effect means that someone tries to influence outer environment',
         },
         {
           question: 'Pure functions',
-          answer: 'TBD',
+          answer:
+            'Function can be called pure, if it does not have side effects and its result depends only on provided arguments',
         },
         {
           question: 'Functions as first-class entities',
-          answer: 'TBD',
+          answer:
+            'This is a feature, which allows functions to be access as a variable',
         },
         {
           question: 'Functions composition',
-          answer: 'TBD',
+          answer:
+            'This is a process of combining several functions in order to create new function. f(g(x))',
         },
         {
           question: 'High order functions',
-          answer: 'TBD',
+          answer:
+            'High order function is a function, which takes different function/component, then does some work and pass result of this work into received function. For example HOC can access context and pass it into provided component',
         },
         {
           question: 'Recursion',
-          answer: 'TBD',
+          answer:
+            'This is a feature, which function to call itself inside its body',
         },
         {
           question: 'Currying/Partial Application',
-          answer: 'TBD',
+          answer:
+            'This is an approach, where we replace single function with function which returns function, allowing to pass portion of arguments to the inner function and second portion to outer one',
         },
         {
           question: 'Memorization',
-          answer: 'TBD',
+          answer:
+            'This a process, of saving result of function execution and reusing it instead of recalculation. This is possible if we have pure functions, which will always return same value for the same arguments',
         },
         {
           question: 'Pros/Cons',

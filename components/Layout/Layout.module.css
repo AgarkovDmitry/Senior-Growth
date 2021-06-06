@@ -1,13 +1,13 @@
 .layout {
-  height: 100vh;
+  min-height: 100vh;
 }
 
-.logo {
+.progress {
   height: 32px;
   margin: 16px;
-  background: rgba(255, 255, 255, 0.2);
 }
 
 .content {
   padding: 24px;
+  max-width: 1024px;
 }

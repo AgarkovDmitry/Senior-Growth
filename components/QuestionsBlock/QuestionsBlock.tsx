@@ -4,7 +4,7 @@ const { Panel } = Collapse
 
 interface Question {
   question: string
-  answer?: string
+  answer?: React.ReactNode
   children?: Question[]
 }
 
@@ -18,7 +18,7 @@ export default function QuestionsBlock({ questions }: Props) {
       {questions.map((question) => (
         <Panel header={question.question} key={question.question}>
           <Space direction='vertical' style={{ width: '100%' }}>
-            {question.answer}
+            <div>{question.answer}</div>
 
             {question.children && (
               <QuestionsBlock questions={question.children} />
