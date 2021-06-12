@@ -44,9 +44,6 @@ export default function Git() {
           <Divider orientation='left' dashed={true}>
             Estimation techniques
           </Divider>
-          <Divider orientation='left' dashed={true}>
-            Participation
-          </Divider>
           <Collapse>
             <Collapse.Panel header='Planning Poker' key='poker'>
               Everyone selects card, that represents his opinion. Then all cards
@@ -73,6 +70,9 @@ export default function Git() {
               are trying to do is calculate overall cost of the project.
             </Collapse.Panel>
           </Collapse>
+          <Divider orientation='left' dashed={true}>
+            Participation
+          </Divider>
           <Typography.Text>
             Developers and testers should participate in estimations, every
             person might have concerns and would help us to be more accurate.
