@@ -13,8 +13,8 @@ export const topics = [
   { id: 'architecture', name: 'Architecture', questions: [], percent: 100 },
   { id: 'patterns', name: 'Patterns', questions: [] },
   { id: 'code-quality', name: 'Code Quality', questions: [], percent: 100 },
-  { id: 'git', name: 'CI/CD/CD, GIT', questions: [] },
+  { id: 'git', name: 'CI/CD/CD, GIT', questions: [], percent: 100 },
   { id: 'lifecycles', name: 'SDLC Methodologies', questions: [] },
-  { id: 'estimations', name: 'Estimations', questions: [] },
+  { id: 'estimations', name: 'Estimations', questions: [], percent: 100 },
   { id: 'soft-skills', name: 'Soft Skills', questions: [] },
 ]

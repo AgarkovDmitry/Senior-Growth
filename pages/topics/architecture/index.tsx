@@ -127,7 +127,7 @@ export default function Architecture() {
                 generic types for all cases.
               </Typography.Text>
               <Divider dashed={true} orientation='left'>
-                Dependecy Inversio principle
+                Dependecy Inversion principle
               </Divider>
               <Typography.Text>
                 High level entities should not rely on low level, instead they

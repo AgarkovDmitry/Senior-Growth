@@ -91,7 +91,7 @@ export default function CodeQuality() {
             </Collapse.Panel>
             <Collapse.Panel header='UI testing' key='UI'>
               UI testing is focused on user interface, without real backend
-              requests. Can be considered as Unit testing
+              requests. Can be considered as a part of integration testing
             </Collapse.Panel>
             <Collapse.Panel header='Testing pyramid' key='pyramid'>
               Testing pyramid is showing relative amount of tests that project
@@ -169,7 +169,12 @@ export default function CodeQuality() {
             missed by developer/tools/reviewers and we discover it later, it
             starts to smell. Sometimes, we make a decision to leave tech debt,
             when are limited in resources or when we need to introduce bug fixes
-            for code, that will be removed soon
+            for code, that will be removed soon.
+            <br />
+            Tech debt has exponential influence on feature developemnt, the more
+            you have it, the more harder and longer it takes to develop feature.
+            <br />
+            Tech Debt sprint, few tech debt tasks each sprint.
           </Typography.Text>
           <Divider orientation='left' dashed={true}>
             TDD/BDD

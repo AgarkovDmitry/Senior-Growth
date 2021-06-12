@@ -163,7 +163,7 @@ export default function WebApplication() {
             </Collapse.Panel>
             <Collapse.Panel header='Monorepos and microfrontends' key='repo'>
               <Typography.Text>
-                The idea behind microfrontends coems from backend micro services
+                The idea behind microfrontends comes from backend micro services
                 and has simillar pros/cons
               </Typography.Text>
               <Divider orientation='left' dashed={true}>
